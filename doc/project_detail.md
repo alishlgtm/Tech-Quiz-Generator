@@ -129,8 +129,9 @@ Here’s how the generated quiz looks when displayed in LangFlow’s Playground:
 ### Here is the Scoring method for each student
 Here’s how the Scores are shown in the end for a better understanding and overview:
 
-<img width="1813" height="867" alt="image"  src="https://github.com/user-attachments/assets/ed99ab93-14f7-4155-8215-542a653b400f" />
+<img width="1813" height="867" alt="image"  src="https://github.com/user-attachments/assets/6fd65e33-0b8b-41b3-8f9c-56bf5e0e3b6a" />
+
 
 ---
 
-👉 For full project details, go here → [docs/project_details.md](docs/project_details.md)
+
