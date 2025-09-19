@@ -124,7 +124,12 @@ This flow retrieves relevant content and generates quiz questions using Groq LLM
 ### Example Output in Playground
 Here’s how the generated quiz looks when displayed in LangFlow’s Playground:
 
-<img width="1813" height="867" alt="image" src="[https://github.com/alishlgtm/Tech-Quiz-Generator/blob/main/ans%20key.png?raw=true](https://github.com/alishlgtm/Tech-Quiz-Generator/blob/main/quiz.jpg?raw=true)" />
+<img width="1813" height="867" alt="image"  src="https://github.com/user-attachments/assets/ed99ab93-14f7-4155-8215-542a653b400f" />
+
+### Here is the Scoring method for each student
+Here’s how the Scores are shown in the end for a better understanding and overview:
+
+<img width="1813" height="867" alt="image"  src="https://github.com/user-attachments/assets/ed99ab93-14f7-4155-8215-542a653b400f" />
 
 ---
 
