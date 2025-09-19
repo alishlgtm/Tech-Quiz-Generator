@@ -27,5 +27,5 @@ SPPU Content (PDF/Notes/Questions) → Upload → Astra DB → LangFlow Pipeline
 
 ---
 
-👉 For full project details, go here → [docs/project_details.md](docs/project_details.md)
+👉 For full project details, go here → [docs/project_details.md](doc/project_detail.md)
 
