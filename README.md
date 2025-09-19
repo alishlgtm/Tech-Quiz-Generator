@@ -1,29 +1,59 @@
-# Tech-Quiz-Generator
-This a Test Generator Quiz for My SPPU Exams
-# 📘 SPPU Exam Quiz Generator  
+# 📘 Project Details – SPPU Exam Quiz Generator  
 
-This project generates **multiple-choice quizzes (MCQs)** from **SPPU exam content** (notes, unit-wise question banks, or textbooks) using a **no-code/low-code GenAI pipeline in LangFlow**.  
-The quizzes help students revise concepts quickly in an **interactive, exam-oriented** way.  
+This document provides an in-depth explanation of the **Tech-Quiz-Generator** project. It explains the workflow, setup, and customization options.  
 
 ---
 
-## ✨ Key Features  
-- 📚 **Syllabus-driven quizzes** – MCQs generated from **SPPU subjects** like Cloud Computing, AI, Web Tech, etc.  
-- 🔄 **Unit-wise selection** – Generate quizzes for any Unit (I–VI).  
-- ⚙️ **Configurable difficulty** – Choose number of questions & difficulty level.  
-- 🎯 **Exam-oriented** – Matches **SPPU question patterns**.  
-- 🔄 **Extendable** – Can adapt to any topic or university content.  
+## 🎯 Project Goal  
+
+The goal of this project is to help students preparing for **SPPU exams** practice with **automatically generated MCQs** based on their syllabus, notes, and unit-wise question banks.  
+
+It uses **LangFlow + Astra DB + LLMs** to create a **no-code/low-code quiz generator**.  
 
 ---
 
-## 🛠️ Architecture  
+## 🔄 Workflow  
 
-```mermaid
-flowchart TD
-    A[SPPU Content (PDF/Notes/Questions)] -->|Upload| B[Astra DB]
-    B --> C[LangFlow Pipeline]
-    C --> D[LLM Quiz Generator]
-    D --> E[Generated MCQs]
-    E --> F[Student/Exam Prep App]
+1. **Content Input**  
+   - Users provide **SPPU notes, PDFs, or question banks**.  
+   - The content is stored in **Astra DB** for easy retrieval.  
 
-👉 For details of the project, go here → [docs/project_details.md](docs/project_details.md)
+2. **Preprocessing**  
+   - Text is **cleaned, chunked, and indexed**.  
+   - Each chunk represents a topic/concept from the syllabus.  
+
+3. **Quiz Generation Pipeline (LangFlow)**  
+   - **LangFlow** connects Astra DB with an **LLM (OpenAI/Anthropic, etc.)**.  
+   - The pipeline transforms syllabus text → into **exam-style MCQs**.  
+
+4. **Output (MCQs)**  
+   - Each MCQ has **4 options** with one correct answer.  
+   - The quizzes are generated **unit-wise** or **subject-wise**.  
+
+5. **Interactive Usage**  
+   - Students can select number of questions.  
+   - Quiz can be delivered via CLI, Web UI, or mobile integration.  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **LangFlow** → Workflow orchestration (no-code/low-code AI pipeline)  
+- **Astra DB** → Cloud-native NoSQL database for storing syllabus & notes  
+- **Python** → Preprocessing and integration scripts  
+- **LLM** → Question generation engine (OpenAI GPT, Anthropic Claude, etc.)  
+
+---
+
+## 📂 Directory Structure  
+
+```bash
+Tech-Quiz-Generator/
+│── docs/
+│   └── project_details.md       # Detailed documentation
+│── data/
+│   └── sppu_notes/              # Raw notes & question banks
+│── langflow_pipeline.json       # Exported LangFlow workflow
+│── scripts/
+│   └── preprocess.py            # Prepares text for database ingestion
+│── README.md                    # Project overview
