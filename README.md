@@ -23,11 +23,9 @@ The quizzes help students revise concepts quickly in an **interactive, exam-orie
 
 ## 🛠️ Architecture  
 
-```mermaid
-flowchart TD
-    A[SPPU Content (PDF/Notes/Questions)] -->|Upload| B[Astra DB]
-    B --> C[LangFlow Pipeline]
-    C --> D[LLM Quiz Generator]
-    D --> E[Generated MCQs]
-    E --> F[Student/Exam Prep App]
-👉 For details of the project, go here → [docs/project_details.md](docs/project_details.md) 
+SPPU Content (PDF/Notes/Questions) → Upload → Astra DB → LangFlow Pipeline → LLM Quiz Generator → Generated MCQs → Student/Exam Prep App  
+
+---
+
+👉 For full project details, go here → [docs/project_details.md](docs/project_details.md)
+
