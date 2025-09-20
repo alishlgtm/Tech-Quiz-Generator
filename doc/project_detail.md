@@ -46,7 +46,7 @@ Chat Input → Astra DB → Parser → Prompt Template → Groq LLM → Chat Out
 - Groq LLM (for question generation)  
 - Python 3.12.1  
 
-# 📝 Example Quiz Output
+#  Example Quiz Output
 
 **Quiz: “Cloud Computing – Unit I”**
 
@@ -79,7 +79,7 @@ D. Community Cloud
 
 ---
 
-## ✅ Answers
+##  Answers
 
 | # | Correct Answer |
 |---|----------------|
