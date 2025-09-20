@@ -89,7 +89,7 @@ D. Community Cloud
 
 ---
 
-## 🏆 Score Card
+##  Score Card
 
 | Score | Result |
 |-------|--------|
@@ -102,7 +102,7 @@ D. Community Cloud
 
 ---
 
-✨ Good luck, future tech wizard! 🌟
+ Good luck, future tech wizard! 
 
 # LangFlow Flow Architecture
 
