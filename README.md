@@ -13,11 +13,11 @@ The quizzes help students revise concepts quickly in an **interactive, exam-orie
 
 ## ✨ Key Features  
 
-- 📚 **Syllabus-driven quizzes** – MCQs generated from **SPPU subjects** like Cloud Computing, AI, Web Tech, etc.  
-- 🔄 **Unit-wise selection** – Generate quizzes for any Unit (I–VI).  
-- ⚙️ **Configurable difficulty** – Choose number of questions & difficulty level.  
-- 🎯 **Exam-oriented** – Matches **SPPU question patterns**.  
-- 🔄 **Extendable** – Can adapt to any topic or university content.  
+-  **Syllabus-driven quizzes** – MCQs generated from **SPPU subjects** like Cloud Computing, AI, Web Tech, etc.  
+-  **Unit-wise selection** – Generate quizzes for any Unit (I–VI).  
+- **Configurable difficulty** – Choose number of questions & difficulty level.  
+-  **Exam-oriented** – Matches **SPPU question patterns**.  
+-  **Extendable** – Can adapt to any topic or university content.  
 
 ---
 
